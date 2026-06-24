@@ -12,4 +12,4 @@ const multyply = function(a, b) {
     return a * b;
 };
 
-console.log(multyply);
+console.log(multyply(5, 5)); 
