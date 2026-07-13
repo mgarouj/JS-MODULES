@@ -8,3 +8,8 @@ console.log(multyply(2, 45))
 
 const hello = () => "hello world."
 console.log(hello());
+
+
+
+const ali = (a, b, c) => (a + b + c);
+console.log(ali(2, 2, 2)); 
