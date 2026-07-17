@@ -5,3 +5,8 @@ function makeCounter(){
         return count;
     }
 }
+
+let counter = makeCounter();
+console.log(counter());
+console.log(counter());
+console.log(counter());
