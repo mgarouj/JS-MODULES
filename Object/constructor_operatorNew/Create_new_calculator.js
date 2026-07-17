@@ -1,6 +1,6 @@
 
 function Calculator(){
-    read(){
+    this.read = function(){
         
     }
 }
