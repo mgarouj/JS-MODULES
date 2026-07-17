@@ -1,8 +1,6 @@
 // calculator
 
 let calculator = {
-    a: 0,
-    b: 0,
     read: function(a, b){
         const readlineSync = require('readline-sync');
 
