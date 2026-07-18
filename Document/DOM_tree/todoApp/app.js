@@ -44,3 +44,21 @@ function addTask(text){
     list.appendChild(li);
 }
 
+addBtn.addEventListener('click', () => {
+    const text = input.value;
+
+    if (text === "") return;
+
+    addTask(input.value);
+
+    input.value = "";
+});
+
+
+
+const warning = document.createElement('p');
+
+warning.innerHTML = "<b>Note:</b> click x to delete a task";
+warning.style.color = "gray";
+
+app.appendChild(warning);
