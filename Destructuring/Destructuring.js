@@ -12,7 +12,18 @@ console.log(first, third);
 
 
 // rest pattern (grab the remainder)
-let [first, ...rest] = [1, 2, 3, 4];
-console.log(first); // 1
+let [first2, ...rest] = [1, 2, 3, 4];
+console.log(first2); // 1
 console.log(rest); //[2, 3, 4]
 
+
+
+
+
+
+
+
+let user = { name: "John", age: 30, city: "Paris" };
+
+let { age, name } = user;  
+console.log(name, age);
