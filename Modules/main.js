@@ -1,6 +1,5 @@
 import {add, PI } from './math.js'
 import Player from './player.js';
-import player from './player.js'
 
 console.log(add(2, 3));
 const p = new Player("john");
