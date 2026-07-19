@@ -11,4 +11,6 @@ showButton.addEventListener("click", showTitle);
 
 const myInput = document.getElementById("myInput");
 
-myInput.
+myInput.addEventListener("keypress", function (event){
+    console.log(event.key);
+});
