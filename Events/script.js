@@ -1,7 +1,10 @@
 const showButton = document.getElementById("showButton");
 
-showButton.addEventListener('click', function() {
+
+const showTitle = () => {
     console.log("hello world");
-});
+};
+
+showButton.addEventListener("click", showTitle);
 
 showButton.appendChild(showButton);
