@@ -8,4 +8,7 @@ const showTitle = (event) => {
 
 showButton.addEventListener("click", showTitle);
 
-showButton.appendChild(showButton);
+
+const myInput = document.getElementById("myInput");
+
+myInput.
