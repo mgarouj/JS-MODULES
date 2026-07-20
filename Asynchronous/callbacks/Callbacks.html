@@ -10,9 +10,8 @@
                 let script = document.createElement('script');
                 script.src = src;
 
-                script.onload = () => callback
+                script.onload = () => callback(script);
                 document.head.append(script);
-
             }
         </script>
     </body>
