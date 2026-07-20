@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            function loadScript(src, callback){
+                let script = document.createElement('script');
+                script.src = src;
+
+                script.onload = () => callback
+                document.head.append(script);
+
+            }
+        </script>
+    </body>
+</html>
