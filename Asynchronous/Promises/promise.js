@@ -9,3 +9,7 @@ function getUser(id){
         }, 1000);
     });
 }
+
+getUser(1)
+    .then(user => console.log(user.name))
+    .catch(err => console.log(err));
