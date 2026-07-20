@@ -4,5 +4,8 @@ function wait(seconds) {
             reject("Cannot wait negative time!");
             return;
         }
-    })
+        setTimeout(() => {
+            resolve(`Waited ${seconds} seconds`);
+        }, seconds * 1000);
+    });
 }
