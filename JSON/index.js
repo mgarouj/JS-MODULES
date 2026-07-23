@@ -1,3 +1,3 @@
 JSON = (javascript object ntation) data-interchange Format 
         used for exchangin data between a server and a web application 
-        JSON files {Key}
+        JSON files {Key:value} OR [{}, P{}, {}]
