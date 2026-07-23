@@ -1,6 +1,6 @@
 
 
-async zfunction walkDog(){
+function walkDog(){
     
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -27,8 +27,4 @@ function cleanKitchen(){
     })
 }
 
-
-walkDog().then(value => {console.log(value); return cleanKitchen()})
-         .then(value => {console.log(value); return takeOutTrash()})
-         .then(value => console.log(value));
 
