@@ -46,6 +46,6 @@ const people = `[{
 // console.log(parseData);
 
 
-fetch("person.json")
+fetch("people.json")
     .then(Response =>response.json())
     .then(value => console.log(value))
