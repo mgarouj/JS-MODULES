@@ -43,7 +43,7 @@ async function doChores(){
         console.log("Yout finished all the chores !");
     }
     catch(error){
-        
+        console.error(error)
     }
 }
 
