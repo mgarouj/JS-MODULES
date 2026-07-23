@@ -51,4 +51,3 @@ fetch("./people.json")
     .then(value => value.array.forEach(value => {
         console.log(value.isEmploy)
     }))
-    .catch(error => )
