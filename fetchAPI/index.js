@@ -5,4 +5,5 @@
 //          data asynchrounounsly over the web.
 //          fetch(url, {options})
 
-fetch("https://pokeapi.co/api/v2/pokemon/pikachu");
+fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
+    then
