@@ -8,3 +8,5 @@
 
 
 const names = ["spongebob", "parrick", "squidward", "Sandy"];
+
+const jsonString = JSON.stringify()
