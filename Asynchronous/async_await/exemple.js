@@ -38,5 +38,5 @@ async function doChores(){
     const takeOutTrashResult = await takeOutTrash();
     console.log(takeOutTrashResult);
 
-    console.log()
+    console.log("")
 }
