@@ -28,14 +28,14 @@ function cleanKitchen(){
 }
 
 
- function doChores(){
-    const walkDogResult =  walkDog();
-    console.log(walkDogResult.re);
+async function doChores(){
+    const walkDogResult = await walkDog();
+    console.log(walkDogResult);
     
-    const cleanKitchenResult =  cleanKitchen();
+    const cleanKitchenResult = await cleanKitchen();
     console.log(cleanKitchenResult);
 
-    const takeOutTrashResult =  takeOutTrash();
+    const takeOutTrashResult = await takeOutTrash();
     console.log(takeOutTrashResult);
 
     console.log("Yout finished all the chores !");
