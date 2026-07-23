@@ -11,5 +11,10 @@
 {
     "name":"Squidward",
     "age": 30,
-    "isEmployed": false
+    "isEmployed": true
+},
+{
+    "name":"Patrik",
+    "age": 30,
+    "isEmployed": false,
 }]
