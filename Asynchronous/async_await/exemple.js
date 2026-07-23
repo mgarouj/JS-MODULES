@@ -18,7 +18,7 @@ async function main() {
         console.log(result);
 
         const result2 = await wait(-1);
-        console.log(result2);
+        console.log("sssss");
     } catch (err) {
         console.log("Caught an error:", err);
     }
@@ -28,3 +28,6 @@ async function main() {
 
 main();
 console.log("This runs immediately, while main() is still waiting!");
+
+
+// This is the core proof that await pauses a function, not the whole JS engine — everything else outside that async function keeps executing normally.
