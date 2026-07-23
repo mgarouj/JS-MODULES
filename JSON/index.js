@@ -1,1 +1,2 @@
-JSON = (javascript object ntation) data-interchange format
+JSON = (javascript object ntation) data-interchange Format 
+        
