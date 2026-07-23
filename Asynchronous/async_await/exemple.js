@@ -32,8 +32,8 @@ async function doChores(){
     const walkDogResult = await walkDog();
     console.log(walkDogResult);
     
-    const cl = await walkDog();
-    console.log(cl);
+    const cleanKitchenResult = await walkDog();
+    console.log(cleanKitchenResult);
 
     const walkDogResult = await walkDog();
     console.log(walkDogResult);
