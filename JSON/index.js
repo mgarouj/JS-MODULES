@@ -41,6 +41,6 @@ const people = `[{
 
 
 
-// const parseData = JSON.parse(people);  this method to converts a json string to a js object 
+// const parseData = JSON.parse(people);    this method to converts a json string to a js object 
 // console.log(people);
 // console.log(parseData);
