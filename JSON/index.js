@@ -47,5 +47,5 @@
 
 
 fetch("./people.json")
-    .then(Response => response.json())
+    .then(response => response.json())
     .then(value => console.log(value))
