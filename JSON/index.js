@@ -17,4 +17,4 @@ const persone = {
 
 const jsonString = JSON.stringify(names);
 
-console.log(jsonString);
+console.log(persone);
