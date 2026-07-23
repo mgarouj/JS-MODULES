@@ -50,4 +50,4 @@ fetch("./people.json")
     .then(response => response.json())
     .then(value => value.array.forEach(value => {
         console.log(value.isEmploy)
-    });)
+    }))
