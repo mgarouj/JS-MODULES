@@ -35,6 +35,6 @@ const people = [{
     "isEmployed": false
 }];
 
-// const jsonString = JSON.stringify(people);    
+// const jsonString = JSON.stringify(people);    this methos to convet a js object to an jsong string 
 
 // console.log(jsonString);
