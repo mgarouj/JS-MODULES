@@ -29,13 +29,13 @@ function cleanKitchen(){
 
 
  function doChores(){
-    const walkDogResult = await walkDog();
+    const walkDogResult =  walkDog();
     console.log(walkDogResult);
     
-    const cleanKitchenResult = await cleanKitchen();
+    const cleanKitchenResult =  cleanKitchen();
     console.log(cleanKitchenResult);
 
-    const takeOutTrashResult = await takeOutTrash();
+    const takeOutTrashResult =  takeOutTrash();
     console.log(takeOutTrashResult);
 
     console.log("Yout finished all the chores !");
