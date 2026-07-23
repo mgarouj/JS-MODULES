@@ -41,4 +41,4 @@ const people = `[{
 
 
 
-const 
+const parseData = JSON.parse(people)
