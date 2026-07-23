@@ -1,35 +1,34 @@
 
 
-function wait(seconds) {
+function walkDog(){
+    
     return new Promise((resolve, reject) => {
-        if (seconds < 0) {
-            reject("Cannot wait negative time!");
-            return;
-        }
         setTimeout(() => {
-            resolve(`Waited ${seconds} seconds`);
-        }, seconds * 1000);
-    });
+            resolve("you walk the dog");
+        }, 1500);
+    })
 }
 
-async function main() {
-    console.log("Start");
+function takeOutTrash(){
 
-    try{
-        const result = await wait(2); // pauses here for 2 seconds
-        console.log(result);
-
-        const result2 = await wait(-1);
-        console.log("sssss");
-    } catch (err) {
-        console.log("Caught an error:", err);
-    }
-
-    console.log("End");
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("You take out the trash");
+        }, 500);
+    })
 }
 
-main();
-console.log("This runs immediately, while main() is still waiting!");
+function cleanKitchen(){
+
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("Yout clean the kitchen");
+        }, 2500);
+    })
+}
 
 
-// This is the core proof that await pauses a function, not the whole JS engine — everything else outside that async function keeps executing normally.
+walkDog().then(value => {console.log(value); return cleanKitchen()})
+         .then(value => {console.log(value); return takeOutTrash()})
+         .then(value => console.log(value));
+
