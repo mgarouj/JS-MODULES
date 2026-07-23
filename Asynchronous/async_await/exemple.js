@@ -40,3 +40,5 @@ async function doChores(){
 
     console.log("Yout finished all the chores !");
 }
+
+doChores();
