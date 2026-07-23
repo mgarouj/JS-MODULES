@@ -37,4 +37,4 @@ const people = [{
 
 const jsonString = JSON.stringify(names);
 
-console.log(persone);
+console.log(jsonString);
