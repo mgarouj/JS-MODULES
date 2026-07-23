@@ -3,4 +3,4 @@ JSON = (javascript object ntation) data-interchange Format
         JSON files {Key:value} OR [{},  {}, {}]
 
         JSON.stringify() = converts a JS object to a JSON string.
-        JSON
+        JSON.parse() = converts a JSON string to a JS object
