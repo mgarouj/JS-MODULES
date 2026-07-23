@@ -35,6 +35,6 @@ const people = [{
     "isEmployed": false
 }];
 
-const jsonString = JSON.stringify(people);
+// const jsonString = JSON.stringify(people);    
 
-console.log(jsonString);
+// console.log(jsonString);
