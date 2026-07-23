@@ -6,5 +6,5 @@
 //          fetch(url, {options})
 
 fetch("https://pokeapi.co/api/v2/pokemon/pikachu")
-    .then(respose => console.log(respose)00)
+    .then(respose => respose.json)
     .catch(error => console.error());
