@@ -14,7 +14,7 @@ const persone = {
     "isEmployed": true,
     "hobbies": ["jellyfishing", "karate", "Cooking"]
 };
-const people = [{
+const people = `[{
     "name":"spongebob",
     "age": 30,
     "isEmployed": true
@@ -33,7 +33,7 @@ const people = [{
     "name":"Sandy",
     "age": 30,
     "isEmployed": false
-}];
+}];`
 
 // const jsonString = JSON.stringify(people);    this methos to convet a js object to an jsong string 
 
