@@ -30,7 +30,7 @@ function cleanKitchen(){
 
  function doChores(){
     const walkDogResult =  walkDog();
-    console.log(walkDogResult.);
+    console.log(walkDogResult.re);
     
     const cleanKitchenResult =  cleanKitchen();
     console.log(cleanKitchenResult);
