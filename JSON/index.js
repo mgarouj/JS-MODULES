@@ -8,6 +8,12 @@
 
 
 const names = ["spongebob", "parrick", "squidward", "Sandy"];
+const persone = {
+    "name":"spongebob",
+    "age": 30,
+    "isEmployed": true,
+    "hobbies": ["jellyfishing", "karate", "Cooking"]
+};
 
 const jsonString = JSON.stringify(names);
 
