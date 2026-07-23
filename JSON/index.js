@@ -47,3 +47,4 @@ const people = `[{
 
 
 fetch("person.json")
+    .then(Response => Response.json9)
