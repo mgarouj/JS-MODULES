@@ -48,4 +48,6 @@
 
 fetch("./people.json")
     .then(response => response.json())
-    .then(value => console.log(value))
+    .then(value => value.array.forEach(value => {
+        
+    });)
