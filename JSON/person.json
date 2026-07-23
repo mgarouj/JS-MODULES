@@ -1,5 +1,6 @@
 {
     "name":"spongebob",
     "age": 30,
+    "isEmployed": true,
     
 }
