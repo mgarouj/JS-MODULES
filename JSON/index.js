@@ -41,6 +41,6 @@ const people = `[{
 
 
 
-const parseData = JSON.parse(people);
-console.log(people);
-console.log(parseData);
+// const parseData = JSON.parse(people);  
+// console.log(people);
+// console.log(parseData);
