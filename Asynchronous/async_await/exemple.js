@@ -4,7 +4,10 @@ function walkDog(){
     
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            
+            let flag = true;
+            if (flag){
+                
+            }
             resolve("you walk the dog");
         }, 1500);
     })
