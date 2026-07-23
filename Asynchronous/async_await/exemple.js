@@ -6,9 +6,11 @@ function walkDog(){
         setTimeout(() => {
             let flag = true;
             if (flag){
-                
+                resolve("you walk the dog");
             }
-            resolve("you walk the dog");
+            else{
+                reject("errrrrrorororor")
+            }
         }, 1500);
     })
 }
