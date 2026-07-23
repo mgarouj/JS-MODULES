@@ -1,6 +1,6 @@
 
 
-function walkDog(){
+async function walkDog(){
     
     return new Promise((resolve, reject) => {
         setTimeout(() => {
