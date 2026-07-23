@@ -1,1 +1,1 @@
-// fetch = Funciton used for making 
+// fetch = Function used for making 
