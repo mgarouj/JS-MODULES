@@ -47,5 +47,5 @@ const people = `[{
 
 
 fetch("people.json")
-    .then(Response =>response.json())
+    .then(Response => response.json())
     .then(value => console.log(value))
