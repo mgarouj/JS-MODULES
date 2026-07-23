@@ -2,5 +2,5 @@
     "name":"spongebob",
     "age": 30,
     "isEmployed": true,
-    "hobbies": ["jellyfishing", ]
+    "hobbies": ["jellyfishing", "karate", ""]
 }
