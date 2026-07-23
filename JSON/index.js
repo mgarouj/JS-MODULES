@@ -14,6 +14,26 @@ const persone = {
     "isEmployed": true,
     "hobbies": ["jellyfishing", "karate", "Cooking"]
 };
+const people = [{
+    "name":"spongebob",
+    "age": 30,
+    "isEmployed": true
+},
+{
+    "name":"Patrik",
+    "age": 30,
+    "isEmployed": false
+},
+{
+    "name":"Squidward",
+    "age": 30,
+    "isEmployed": true
+},
+{
+    "name":"Sandy",
+    "age": 30,
+    "isEmployed": false
+}];
 
 const jsonString = JSON.stringify(names);
 
