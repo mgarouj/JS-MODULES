@@ -4,6 +4,7 @@ function walkDog(){
     
     return new Promise((resolve, reject) => {
         setTimeout(() => {
+            
             resolve("you walk the dog");
         }, 1500);
     })
@@ -43,7 +44,7 @@ async function doChores(){
         console.log("Yout finished all the chores !");
     }
     catch(error){
-        console.error(error)
+        console.error(error);
     }
 }
 
