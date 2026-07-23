@@ -7,3 +7,4 @@
 
 
 
+const names = ["spongebob", "parrick", "squidward", "Sandy"];
