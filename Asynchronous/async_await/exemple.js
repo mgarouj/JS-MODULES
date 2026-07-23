@@ -4,12 +4,12 @@ function walkDog(){
     
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            let flag = true;
+            let flag = false;
             if (flag){
                 resolve("you walk the dog");
             }
             else{
-                reject("errrrrrorororor")
+                reject("errrrrrorororor");
             }
         }, 1500);
     })
