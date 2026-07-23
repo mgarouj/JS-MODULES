@@ -46,6 +46,6 @@
 // console.log(parseData);
 
 
-fetch("people.json")
+fetch("./people.json")
     .then(Response => response.json())
     .then(value => console.log(value))
