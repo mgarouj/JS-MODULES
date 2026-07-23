@@ -1,6 +1,6 @@
 
 
-async function walkDog(){
+async zfunction walkDog(){
     
     return new Promise((resolve, reject) => {
         setTimeout(() => {
