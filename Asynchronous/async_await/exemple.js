@@ -29,6 +29,9 @@ function cleanKitchen(){
 
 
 async function doChores(){
+    try{
+        
+    }
     const walkDogResult = await walkDog();
     console.log(walkDogResult);
     
