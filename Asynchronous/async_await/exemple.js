@@ -28,4 +28,6 @@ function cleanKitchen(){
 }
 
 
-async function do
+async function doChores(){
+    const walkDogResult 
+}
