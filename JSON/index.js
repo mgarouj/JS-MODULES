@@ -46,4 +46,4 @@ const people = `[{
 // console.log(parseData);
 
 
-fetch("")
+fetch("person.json")
